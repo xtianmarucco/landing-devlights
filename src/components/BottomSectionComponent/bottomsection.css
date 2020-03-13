@@ -1,0 +1,63 @@
+#nearshore-section .bottom-section {
+  padding-top: 50px;
+  text-align: center;
+  padding-bottom: 150px;
+  margin-bottom: 50px;
+}
+
+#nearshore-section .bottom-section .section-title h1 {
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 5px;
+  line-height: 1.25;
+  margin-top: 30px;
+  color: #5c93ce;
+  font-family: "Aleo";
+}
+
+#nearshore-section .bottom-section .section-title h5 {
+  font-size: 27px;
+  color: #646464;
+}
+
+#nearshore-section .bottom-section .info-section {
+  padding: 50px;
+  text-align: center;
+}
+
+#nearshore-section .bottom-section .info-section .info-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 25px;
+}
+
+#nearshore-section .bottom-section .info-section .info-card .number-container .number {
+  height: 70px;
+  width: 70px;
+  border-radius: 50px;
+  background-color: #5c93ce;
+}
+
+#nearshore-section .bottom-section .info-section .info-card .number-container h1 {
+  font-weight: 600;
+  margin-bottom: 5px;
+  line-height: 1.25;
+  color: white;
+  font-family: "Aleo";
+  margin-top: 5px;
+}
+
+#nearshore-section .bottom-section .info-section .info-card .card-text {
+  text-align: left;
+}
+
+#nearshore-section .bottom-section .info-section .info-card .card-text h5 {
+  color: #5c93ce;
+  font-family: aleo;
+}
+
+#nearshore-section .bottom-section .info-section .info-card .card-text p {
+  color: #646464;
+}
+/*# sourceMappingURL=bottomsection.css.map */

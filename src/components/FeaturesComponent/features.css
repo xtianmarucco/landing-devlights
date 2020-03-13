@@ -1,0 +1,50 @@
+#features {
+  width: 100%;
+  height: 300px;
+  position: relative;
+  background-image: url("/img/bkg-midsection.png");
+  background-size: cover;
+  padding-bottom: 500px;
+  text-align: start;
+  margin: 0;
+}
+
+#features .features-container {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+@media (max-width: 600px) {
+  #features .features-container {
+    display: block;
+  }
+}
+
+#features .features-container .features-info {
+  margin-top: 100px;
+}
+
+#features .features-container .features-info hr.rounded {
+  border-top: 8px solid #ffa133;
+  border-radius: 5px;
+  width: 35px;
+  position: absolute;
+  left: 15px;
+  top: -35px;
+}
+
+#features .features-container .features-info h5 {
+  font-family: aleo;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+
+#features .features-container .features-info p {
+  font-family: "Open Sans",sans-serif;
+  line-height: 1.929;
+  font-size: 15px;
+  color: white;
+}
+/*# sourceMappingURL=features.css.map */

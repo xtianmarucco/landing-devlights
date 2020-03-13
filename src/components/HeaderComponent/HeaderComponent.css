@@ -1,0 +1,107 @@
+#header {
+  width: 100%;
+  position: relative;
+  background-image: url("/img/bkg-header.png");
+  background-size: cover;
+  padding-bottom: 500px;
+  margin: 0;
+}
+
+@media (max-width: 700px) {
+  #header {
+    display: block;
+    height: 800px;
+    margin: 0;
+    width: 100%;
+    position: relative;
+    background-image: url("/img/bkg-header.png");
+    background-size: cover;
+    padding-bottom: 500px;
+    margin: 0;
+  }
+}
+
+#header .logo-container .logo {
+  height: 70px;
+}
+
+#header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 700px) {
+  #header .container {
+    display: block;
+    padding-right: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  #header .container {
+    display: block;
+  }
+}
+
+#header .form-container {
+  padding-top: 50px;
+  width: 100%;
+}
+
+@media (max-width: 700px) {
+  #header .form-container {
+    display: block;
+    padding-right: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  #header .form-container {
+    width: 100%;
+    padding: 50px;
+  }
+}
+
+#header .form-container .form-control {
+  border-radius: 5px;
+}
+
+#header .form-container .btn_send_mail {
+  display: inline-block;
+  padding: 10px 15px;
+  -webkit-box-shadow: 0px 12px 20px 0px rgba(255, 126, 95, 0.15);
+          box-shadow: 0px 12px 20px 0px rgba(255, 126, 95, 0.15);
+  font-size: 14px;
+  color: #fff;
+  text-transform: capitalize;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border-radius: 50px;
+  margin-top: 45px;
+  background-size: 300% 100%;
+  background-image: linear-gradient(131deg, #ffbb00, #ff972b, #ffa133, #ffa133);
+  cursor: pointer;
+}
+
+#header .info-header {
+  padding: 50px;
+  text-align: start;
+}
+
+#header .info-header p {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.929;
+  font-size: 15px;
+  margin-bottom: 0px;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  #header .info-header {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=HeaderComponent.css.map */
