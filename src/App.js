@@ -4,6 +4,7 @@ import HeaderComponent from "./components/HeaderComponent/HeaderComponent";
 import NearshoreComponent from "./components/NearshoreComponent/NearshoreComponent";
 import FeaturesComponent from "./components/FeaturesComponent/FeaturesComponent";
 import BottomSectionComponent from "./components/BottomSectionComponent/BottomSectionComponent";
+import FooterComponent from "./components/FooterComponent/FooterComponent";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <NearshoreComponent />
       <FeaturesComponent />
       <BottomSectionComponent />
+      <FooterComponent></FooterComponent>
     </div>
   );
 }
