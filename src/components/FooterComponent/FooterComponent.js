@@ -92,7 +92,24 @@ class FooterComponent extends React.Component {
 
               </div>
 
-              <div className=""  ></div>
+              <div className="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12 form_email"  >
+                <h4>Connect with us</h4>
+                <form id="contact-form" method="post" to="./sendmail.php">
+                  <div class="form-group name"><label for="form_name"></label>
+                    <input class="form-control name" type="text" id="name" name="name" aria-describedby="name" placeholder="Name" data-error="Valid name is required." required="" />
+                  </div>
+                  <div class="form-group phone"><label for="form_mail"></label><input class="form-control email" type="mail" id="email" name="email" aria-describedby="email" placeholder="E-mail" />
+                  </div>
+                  <div class="form-group message"><label for="form_message"></label>
+                    <textarea class="form-control messagearea" id="messagearea" name="message" placeholder="Message"></textarea>
+                  </div>
+                  <div class="text-center" id="send-message"><button class="btn_send_mail float-left" type="button" id="send-mail">Send message</button></div>
+                </form>
+
+
+
+
+              </div>
 
 
 
