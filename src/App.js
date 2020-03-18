@@ -6,10 +6,17 @@ import FeaturesComponent from "./components/FeaturesComponent/FeaturesComponent"
 import BottomSectionComponent from "./components/BottomSectionComponent/BottomSectionComponent";
 import FooterComponent from "./components/FooterComponent/FooterComponent";
 
+
+
+
+
 function App() {
   return (
     <div className="App">
+
+
       <HeaderComponent />
+      <facebookSquare color='red' size='15rem' />
       <NearshoreComponent />
       <FeaturesComponent />
       <BottomSectionComponent />

@@ -18,8 +18,10 @@
 #footer .footer-logo-devlights {
   width: 55%;
   height: 55%;
-  padding: 0 0 10px 0;
   vertical-align: middle;
+  float: left;
+  margin-left: 15px;
+  margin-bottom: 35px;
 }
 
 #footer .footer-list-ul {
@@ -41,6 +43,10 @@
 #footer iframe {
   border-width: inherit;
   float: left;
+}
+
+#footer .links-box {
+  padding-left: 40px;
 }
 
 #footer .links-menu-li-menu a {
@@ -73,6 +79,20 @@
 #footer li {
   padding: 0 0 25px 0;
   font-family: "Open Sans",sans-serif;
+}
+
+#footer .info-list {
+  display: -webkit-inline-box;
+}
+
+#footer .info-list img {
+  padding: 10px;
+  height: 38px;
+  margin-top: -5px;
+}
+
+#footer .social_icons {
+  float: left;
 }
 
 #footer .messagearea {
