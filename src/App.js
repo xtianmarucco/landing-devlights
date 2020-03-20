@@ -5,6 +5,7 @@ import NearshoreComponent from "./components/NearshoreComponent/NearshoreCompone
 import FeaturesComponent from "./components/FeaturesComponent/FeaturesComponent";
 import BottomSectionComponent from "./components/BottomSectionComponent/BottomSectionComponent";
 import FooterComponent from "./components/FooterComponent/FooterComponent";
+import SliderSection from "./components/SliderSection/SliderSection";
 
 
 
@@ -20,6 +21,7 @@ function App() {
       <NearshoreComponent />
       <FeaturesComponent />
       <BottomSectionComponent />
+      <SliderSection></SliderSection>
       <FooterComponent></FooterComponent>
     </div>
   );

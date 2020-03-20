@@ -1,10 +1,10 @@
 #header {
-  width: 100%;
   position: relative;
   background-image: url("/img/bkg-header.png");
   background-size: cover;
   padding-bottom: 500px;
   margin: 0;
+  padding: 0;
 }
 
 @media (max-width: 700px) {
@@ -25,14 +25,14 @@
   height: 70px;
 }
 
-#header .container {
+#header .header-section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
 @media (max-width: 700px) {
-  #header .container {
+  #header .header-section {
     display: block;
     padding-right: 10px;
     padding-right: 10px;
@@ -40,9 +40,36 @@
 }
 
 @media (max-width: 600px) {
-  #header .container {
+  #header .header-section {
     display: block;
   }
+}
+
+#header .header-section h1 {
+  text-align: left;
+  font-weight: 600;
+  margin-bottom: 25px;
+  line-height: 1.25;
+  margin-top: 30px;
+  color: white;
+  font-family: "Aleo";
+}
+
+#header .header-section h3 {
+  text-align: left;
+  font-weight: 600;
+  margin-bottom: 25px;
+  line-height: 1.25;
+  margin-top: 30px;
+  color: white;
+  font-family: "Aleo";
+  padding-left: 15px;
+}
+
+#header .header-section .p {
+  font-family: "Open Sans",sans-serif;
+  line-height: 1.929;
+  font-size: 20px;
 }
 
 #header .form-container {

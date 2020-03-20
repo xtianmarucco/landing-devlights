@@ -30,7 +30,8 @@
 
             .info-card{
              display: flex;
-             margin:25px;
+             margin:35px;
+             justify-content: center;
 
             .number-container{ 
                 
@@ -55,9 +56,10 @@
             .card-text{
              text-align: left;
 
-             h5{
+             h3{
                  color: #5c93ce;
                  font-family: aleo;
+                 font-weight: bold;
              }
 
              p{

@@ -1,0 +1,42 @@
+#slider-section {
+  margin: 0;
+  padding: 0;
+  height: auto;
+  width: 100%;
+  padding: 50px;
+  margin-bottom: 150px;
+}
+
+#slider-section .title-clients h3 {
+  font-size: 36px;
+  color: #5c93ce;
+  font-weight: bold;
+  position: relative;
+  font-family: "Aleo";
+}
+
+#slider-section .clients-section {
+  width: 100%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 100px;
+}
+
+#slider-section .clients-section .client-logo {
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-shadow: 0px 10px 30px 0px rgba(1, 84, 85, 0.2);
+          box-shadow: 0px 10px 30px 0px rgba(1, 84, 85, 0.2);
+  overflow: hidden;
+  background: #fff;
+  height: auto;
+  border-radius: 20px;
+  margin: 10px;
+}
+/*# sourceMappingURL=slider-section.css.map */
