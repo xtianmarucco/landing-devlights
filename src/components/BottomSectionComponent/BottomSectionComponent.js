@@ -6,7 +6,7 @@ class BottomSectionComponent extends React.Component {
     render() {
 
         return (
-            <bottomsection id="nearshore-section" className="row">
+            <section id="nearshore-section" className="row">
 
                 <div className="container bottom-section">
                     <div className="container section-title">
@@ -31,7 +31,7 @@ class BottomSectionComponent extends React.Component {
                 </div>
 
 
-            </bottomsection>
+            </section>
 
         )
 

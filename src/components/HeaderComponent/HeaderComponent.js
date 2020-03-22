@@ -1,20 +1,23 @@
 import React from "react";
+import FormComponent from "../FormComponent/FormComponent";
 import "./HeaderComponent.css";
-import logo from "./logo-white.png";
+
+
 
 class HeaderComponent extends React.Component {
   render() {
     return (
       <section id="header">
-        <div className="logo-container container">
-          <img className="logo" src={logo} alt="logo" />
-        </div>
+
         <div className="container">
 
           <div className="row">
             <div className="col-md-12 col-sm-12 col-xs-12 header-section">
-              <div className="col-xs-12 col-md-7  info-header">
+              <div className="col-xs-12 col-md-7 col-sm-12 col-xs-12  info-header">
                 <h1> Devlights' nearshore software development services</h1>
+
+                <h3 className="sub-title"> We connect our clients with their products
+                </h3>
 
                 <p>
                   <strong> We make things happen here at Devlights. </strong>
@@ -33,14 +36,15 @@ class HeaderComponent extends React.Component {
                 </p>
 
               </div>
-              <div className="col-xl-5 col-lg-5 col-md-5  col-xs-12 form-container">
+              <div className="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12  form-container">
                 <h3> Need more information?
                 <br />
                  Let's get in touch</h3>
 
                 <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 form_email">
                   <div className="br"></div>
-                  <form id="contact-form" method="post" to="./sendmail.php">
+                  <FormComponent />
+                  {/*  <form id="contact-form" method="post" to="./sendmail.php">
                     <div className="form-group name">
                       <label for="form_name"></label>
                       <input
@@ -73,7 +77,7 @@ class HeaderComponent extends React.Component {
                         id="email"
                         name="email"
                         aria-describedby="email"
-                        placeholder="E-mail"
+                        placeholder="E-mail"   
                       />
                     </div>
 
@@ -86,7 +90,10 @@ class HeaderComponent extends React.Component {
                         Send information
                   </button>
                     </div>
-                  </form>
+                  </form> */}
+
+
+
                 </div>
               </div>
             </div>

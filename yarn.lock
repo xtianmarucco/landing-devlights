@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"2kenizer@*":
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/2kenizer/-/2kenizer-0.1.6.tgz#a4cc5263894aedec995493af7735f87872f6b390"
+  integrity sha1-pMxSY4lK7eyZVJOvdzX4eHL2s5A=
+
 "@babel/code-frame@7.8.3", "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.8.3":
   version "7.8.3"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.8.3.tgz#33e25903d7481181534e12ec0a25f16b6fcf419e"
@@ -1119,7 +1124,7 @@
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/@mrmlnc/readdir-enhanced/-/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
-  integrity sha512-bPHp6Ji8b41szTOcaP63VlnbbO5Ny6dwAATtY6JTjh5N2OLrb5Qk/Th5cRkRQhkWCt+EJsYrNB0MiL+Gpn6e3g==
+  integrity sha512-b6Ji8b41szTOcaP63VlnbbO5Ny6dwAATtY6JTjh5N2OLrb5Qk/Th5cRkRQhkWCt+EJsYrNB0MiL+Gpn6e3g==
   dependencies:
     call-me-maybe "^1.0.1"
     glob-to-regexp "^0.3.0"
@@ -5050,6 +5055,11 @@ indent-string@^4.0.0:
   resolved "https://registry.yarnpkg.com/indent-string/-/indent-string-4.0.0.tgz#624f8f4497d619b2d9768531d58f4122854d7251"
   integrity sha512-EdDDZu4A2OyIK7Lr/2zG+w5jmbuk1DVBnEwREQvBzspBJkCEbRa8GxU1lghYcaGJCnRWibjDXlq779X1/y5xwg==
 
+index.php@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/index.php/-/index.php-1.0.0.tgz#e58f581fa8479eaa1aa5ad4ddca35229c84d3b06"
+  integrity sha1-5Y9YH6hHnqoapa1N3KNSKchNOwY=
+
 indexes-of@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/indexes-of/-/indexes-of-1.0.1.tgz#f30f716c8e2bd346c7b67d3df3915566a7c05607"
@@ -7300,6 +7310,14 @@ performance-now@^2.1.0:
   resolved "https://registry.yarnpkg.com/performance-now/-/performance-now-2.1.0.tgz#6309f4e0e5fa913ec1c69307ae364b4b377c9e7b"
   integrity sha1-Ywn04OX6kT7BxpMHrjZLSzd8nns=
 
+php@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/php/-/php-0.0.1.tgz#df88ec9c7add9146b1578dd18eb30fb929cbc2cc"
+  integrity sha1-34jsnHrdkUaxV43RjrMPuSnLwsw=
+  dependencies:
+    "2kenizer" "*"
+    sjs "*"
+
 picomatch@^2.0.4, picomatch@^2.0.7:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-2.2.1.tgz#21bac888b6ed8601f831ce7816e335bc779f0a4a"
@@ -9133,6 +9151,13 @@ sisteransi@^1.0.3:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/sisteransi/-/sisteransi-1.0.4.tgz#386713f1ef688c7c0304dc4c0632898941cad2e3"
   integrity sha512-/ekMoM4NJ59ivGSfKapeG+FWtrmWvA1p6FBZwXrqojw90vJu8lBmrTxCMuBCydKtkaUe2zt4PlxeTKpjwMbyig==
+
+sjs@*:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/sjs/-/sjs-0.0.3.tgz#38cb101cfbe57b7f6aaee70062d5b59f8f9b0273"
+  integrity sha1-OMsQHPvle39qrucAYtW1n4+bAnM=
+  dependencies:
+    "2kenizer" "*"
 
 slash@^1.0.0:
   version "1.0.0"
