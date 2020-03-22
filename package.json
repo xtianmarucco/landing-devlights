@@ -2,6 +2,11 @@
   "name": "landing-devlights",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "10.16.3",
+    "npm": "6.9.0",
+    "yarn": "1.22.0"
+  },
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^5.12.1",
     "@testing-library/jest-dom": "^4.2.4",
